@@ -15,12 +15,11 @@ body {
     padding: 2rem;
 }
 
-.nav-title a {
+.nav-title h1 {
     color: #fff;
-    text-decoration: none;
     font-family: 'Roboto', 'sans-serif';
     font-size: 2rem;
-
+    font-weight: 400;
 }
 
 .nav-logo {
@@ -41,7 +40,8 @@ body {
 .main-header__title {
     color: #fff;
     font-family: 'Rosario', 'sans-serif';
-    font-size: 3.5rem;
+    font-size: 3.3rem;
+    font-weight:600;
     filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
     margin: 2rem;
 }
