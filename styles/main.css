@@ -27,7 +27,7 @@ body {
   margin: 1.5rem 1.4rem;
 }
 
-.main-header__cover {
+#main-header-cover {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -37,11 +37,11 @@ body {
   height: 100vh;
 }
 
-.main-header__cover div {
+#main-header-cover div {
   text-align: center;
 }
 
-.main-header__title {
+.main-header-title {
   color: #fff;
   font-family: "Rosario", "sans-serif";
   font-size: 5.6rem;
