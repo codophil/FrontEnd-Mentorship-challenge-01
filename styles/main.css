@@ -1,12 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
-}
-html {
-    font-size: 62.5%;
-}
+@import "reset.css";
 
 body {
     margin: 0;
@@ -26,11 +18,13 @@ body {
     font-family: 'Roboto', 'sans-serif';
     font-size: 2.4rem;
     font-weight: 400;
+    margin: 1.5rem 1.4rem;
 }
 
 .nav-logo {
     color: #fff;
     font-size: 2.4rem ;
+    margin: 1.5rem 1.4rem;
 }
 
 .main-header__cover {
