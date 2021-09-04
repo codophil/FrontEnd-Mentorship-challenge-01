@@ -37,13 +37,17 @@ body {
     height: 100vh;
 }
 
+.main-header__cover div {
+    text-align: center;
+}
+
 .main-header__title {
     color: #fff;
     font-family: 'Rosario', 'sans-serif';
     font-size: 3.3rem;
     font-weight:600;
     filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
-    margin: 2rem;
+    margin: 0 2rem;
 }
 
 .join-btn {
