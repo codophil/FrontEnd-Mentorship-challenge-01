@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
@@ -10,21 +11,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2rem;
+    height: 4.8rem;
     background-color: #3498DB;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .nav-title h1 {
     color: #fff;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
 .nav-logo {
     color: #fff;
-    font-size: 2rem ;
+    font-size: 2.4rem ;
 }
 
 .main-header__cover {
@@ -44,7 +45,7 @@ body {
 .main-header__title {
     color: #fff;
     font-family: 'Rosario', 'sans-serif';
-    font-size: 3.3rem;
+    font-size: 5.6rem;
     font-weight:600;
     filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
     margin: 0 2rem;
@@ -52,9 +53,9 @@ body {
 
 .join-btn {
     border: none;
-    border-radius: 0 1rem 0 1rem;
-    font-size: 2.3rem;
-    padding: 0.9rem 3rem;
+    border-radius: 0 1.4rem 0 1.4rem;
+    font-size: 3.2rem;
+    padding: 0.9rem 4rem;
     box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
-    margin: 2rem;
+    margin: 3rem;
 }
