@@ -1,5 +1,14 @@
 @import "reset.css";
 
+:root {
+  --blueColor: #3498db;
+  --lightColor: #fff;
+  --darkColor: #515151;
+  --blackColor: #000;
+  --lightBrown: #FBF1ED;
+  --lightGray: #D3D3D3;
+}
+
 body {
   margin: 0;
 }
@@ -11,12 +20,12 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 4.8rem;
-  background-color: #3498db;
+  background-color: var(--blueColor);
   padding: 1.5rem;
 }
 
 .nav-title h1 {
-  color: #fff;
+  color: var(--lightColor);
   font-family: "Roboto", "sans-serif";
   font-size: 2.4rem;
   font-weight: 400;
@@ -24,7 +33,7 @@ body {
 }
 
 .nav-logo {
-  color: #fff;
+  color: var(--lightColor);
   font-size: 2.4rem;
   margin: 1.5rem 1.4rem;
 }
@@ -44,7 +53,7 @@ body {
 }
 
 .main-header-title {
-  color: #fff;
+  color: var(--lightColor);
   font-family: "Rosario", "sans-serif";
   font-size: 5.6rem;
   font-weight: 600;
@@ -74,7 +83,7 @@ body {
 .next-trip-section-title {
   font-family: "Rosario", "sans-serif";
   font-size: 3.5rem;
-  color: #515151;
+  color: var(--darkColor);
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -107,11 +116,11 @@ body {
 }
 
 .next-trip-name {
-  color: #fff;
+  color: var(--lightColor);
   margin: 2rem;
   font-family: "Roboto", "sans-serif";
   font-size: 3rem;
-  filter: drop-shadow(0.1rem 0.1rem 0.2rem #000);
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem var(--blackColor));
 }
 
 .next-trip-place-large {
@@ -127,18 +136,18 @@ body {
 
 .next-trip-name-large {
   margin-left: 2rem;
-  color: #fff;
+  color: var(--lightColor);
   font-family: "Roboto", "sans-serif";
   font-size: 4rem;
-  filter: drop-shadow(0.1rem 0.1rem 0.2rem #000);
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem var(--blackColor));
 }
 
 .next-trip-description {
-  color: #fff;
+  color: var(--lightColor);
   margin: 1rem 2rem;
   font-family: "Roboto", "sans-serif";
   font-size: 2rem;
-  filter: drop-shadow(0.1rem 0.1rem 0.2rem #000);
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem var(--blackColor));
 }
 
 .learn-more-btn {
@@ -147,7 +156,7 @@ body {
   font-size: 1.4rem;
   font-weight: 600;
   border-radius: 2rem;
-  background-color: #fff;
+  background-color: var(--lightColor);
   padding: 1rem 1.5rem;
   margin: 0 0 2rem 2rem;
 }
@@ -158,7 +167,7 @@ body {
 /* begin more-to-explore section */
 
 #more-explore {
-  background-color: #FBF1ED;
+  background-color: var(--lightBrown);
   padding: 3rem;
 
 }
@@ -177,7 +186,7 @@ body {
 .more-explore-article {
   position: relative;
   width: 33%;
-  background-color: #fff;
+  background-color: var(--lightColor);
   margin: 1rem;
 
 }
@@ -185,7 +194,7 @@ body {
 .like-btn {
   position: absolute;
   right: 0;
-  background-color: #fff;
+  background-color: var(--lightColor);
   font-size: 3rem;
   border-radius: 100%;
   padding: 1rem;
@@ -195,19 +204,16 @@ body {
 
 .more-article-1 {
   background: url(../images/1.jpg) center no-repeat;
-  width: 100%;
   height: 35rem;
 }
 
 .more-article-2 {
   background: url(../images/2.jpg) center no-repeat;
-  width: 100%;
   height: 35rem;
 }
 
 .more-article-3 {
   background: url(../images/7.jpg) center no-repeat;
-  width: 100%;
   height: 35rem;
 }
 
@@ -233,12 +239,13 @@ body {
 
 #main-footer {
   padding: 3rem;
+  max-width: 100%;
   font-family: 'Roboto', 'sans-serif';
 }
 
 .footer-line {
-  color: lightgray;
-  border: 1px solid lightgray;
+  color: var(--lightGray);
+  border: 1px solid var(--lightGray);
   margin: 2rem 3rem;
 }
 
@@ -246,7 +253,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 2rem;
-
 }
 
 .footer-links ul {
@@ -261,7 +267,7 @@ body {
 
 .footer-link a, label, select {
   text-decoration: none;
-  color: #515151;
+  color: var(--darkColor);
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -287,7 +293,7 @@ select:focus {
 
 .footer-icons li a {
   text-decoration: none;
-  color: #515151;
+  color: var(--darkColor);
 }
 
 .fas{
@@ -295,7 +301,7 @@ select:focus {
 }
 
 .footer-icons .slack {
-  color: #3498db;
+  color: var(--blueColor);
 }
 
 .copyright {
