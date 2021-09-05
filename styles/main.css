@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background: url("../images/hero.jpg") center no-repeat;
+  background: url("../images/hero.jpg") no-repeat 60% 90%;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -227,3 +227,80 @@ body {
 }
 
 /* end of more-to-explore section */
+
+
+/* begin main footer */
+
+#main-footer {
+  padding: 3rem;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.footer-line {
+  color: lightgray;
+  border: 1px solid lightgray;
+  margin: 2rem 3rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.footer-link {
+  padding: 1rem;
+}
+
+.footer-link a, label, select {
+  text-decoration: none;
+  color: #515151;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+select {
+  border: none;
+  width: 1.5rem;
+  background: none;
+}
+
+select:focus {
+  border: none;
+  width: 1.5rem;
+  background: none;
+  outline: none;
+}
+
+.footer-icons li {
+  list-style: none;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.footer-icons li a {
+  text-decoration: none;
+  color: #515151;
+}
+
+.fas{
+  margin-right: 0.5rem;
+}
+
+.footer-icons .slack {
+  color: #3498db;
+}
+
+.copyright {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  font
+}
+/* end of main footer */
