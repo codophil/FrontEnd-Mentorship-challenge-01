@@ -38,6 +38,12 @@ body {
   margin: 1.5rem 1.4rem;
 }
 
+.nav-logo:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  filter: brightness(90%);
+}
+
 #main-header-cover {
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +74,14 @@ body {
   padding: 0.9rem 4rem;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
   margin: 3rem;
+}
+
+.join-btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: translateY(1px);
+
+  filter: brightness(110%);
 }
 
 /* end of main header */
@@ -198,6 +212,12 @@ body {
   margin: 1rem;
 }
 
+.like-btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
 .more-article-1 {
   background: url(../images/1.jpg) center no-repeat;
   background-size: cover;
@@ -285,6 +305,11 @@ select:focus {
   outline: none;
 }
 
+.footer-link a:hover {
+  transition: 0.3s;
+  filter: brightness(50%);
+}
+
 .footer-icons li {
   list-style: none;
   padding: 1rem;
@@ -294,6 +319,11 @@ select:focus {
 .footer-icons li a {
   text-decoration: none;
   color: var(--darkColor);
+}
+
+.footer-icons li:hover {
+  transition: 0.3s;
+  filter: brightness(70%);
 }
 
 .fas {
