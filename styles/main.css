@@ -112,7 +112,6 @@ body {
 
 .next-trip-place {
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
   width: 32%;
   height: 35vh;
@@ -259,20 +258,14 @@ body {
 
 .more-article-1 {
   background: url(../images/1.jpg) center no-repeat;
-  background-size: cover;
-  height: 35vh;
 }
 
 .more-article-2 {
   background: url(../images/2.jpg) center no-repeat;
-  background-size: cover;
-  height: 35vh;
 }
 
 .more-article-3 {
   background: url(../images/7.jpg) center no-repeat;
-  background-size: cover;
-  height: 35vh;
 }
 
 .more-article-1,
@@ -280,6 +273,8 @@ body {
 .more-article-3 {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  background-size: cover;
+  height: 35vh;
 }
 
 .article-source {
@@ -386,32 +381,23 @@ select:focus {
 }
 /* end of main footer */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   #main-header-cover {
     justify-content: center;
   }
 
   .next-trip-place {
-    height: 20rem;
+    height: 20vh;
   }
 
   .next-trip-place-large {
-    height: 25rem;
-  }
-
-  .next-trip-name-large {
-    font-size: 3rem;
-  }
-
-  .article-source,
-  .article-title {
-    font-size: 1.5rem;
+    height: 40vh;
   }
 
   .more-article-1,
   .more-article-2,
   .more-article-3 {
-    height: 30vh;
+    height: 25vh;
     background-size: cover;
   }
 
@@ -420,7 +406,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .next-trip-gallery {
     align-items: center;
     flex-direction: column;
@@ -428,7 +414,7 @@ select:focus {
 
   .next-trip-place {
     width: 100%;
-    height: 25rem;
+    height: 40vh;
   }
 
   .next-trip-description {
@@ -470,5 +456,11 @@ select:focus {
 
   .copyright {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 40%;
   }
 }
