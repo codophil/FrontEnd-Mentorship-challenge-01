@@ -118,7 +118,6 @@ body {
   height: 35vh;
   margin-bottom: 1.5rem;
   border-radius: 1rem;
-  box-shadow: inset 0 -9rem 2rem -4rem rgb(0 0 0 / 50%);
   transition: transform 250ms;
 }
 
@@ -139,7 +138,14 @@ body {
   background: url("../images/5.jpg") center no-repeat;
 }
 
-.next-trip-name {
+.next-trip-title {
+  background-color: rgb(0, 0, 0, 0.4);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  width: 100%;
+}
+
+.next-trip-title h3 {
   color: var(--lightColor);
   margin: 2rem;
   font-family: "Roboto", "sans-serif";
